@@ -3,7 +3,7 @@
 $font-basic: 'Poppins', sans-serif;
 $font-card:'Raleway', sans-serif;
 $font-header: 'Nunito', sans-serif;
-
+$text-color-basic: #fff;
 body
 {
     margin: 0;
@@ -43,7 +43,7 @@ header
     padding: 0 0 0 15px;
     margin: 0;
     font-family: $font-basic;
-    color: #fff;
+    color: $text-color-basic;
     font-size: .75em;
     text-align: left;
 }
@@ -51,7 +51,7 @@ header
 .menu_logo p span
 {
     font-family: $font-basic;
-    color: #fff;
+    color: $text-color-basic;
     font-size: 1.5em;
     text-align: left;
     text-shadow: 1px 3px 3px rgba(30, 28, 28, .75);
@@ -83,7 +83,7 @@ header
     text-decoration: none;
     font-family: $font-basic;
     font-weight: bold;
-    color: #fff;
+    color: $text-color-basic;
     font-size: .88em;
     padding: 8px 13px;
     border: 1px solid transparent;
@@ -110,7 +110,7 @@ header
 .content_h1
 {
     max-width: 758px;
-    color: #fff;
+    color: $text-color-basic;
     font-family: $font-basic;
     font-weight: bold;
     font-size: 2.5em;
@@ -121,7 +121,7 @@ header
 .content_p
 {
     max-width: 937px;
-    color: #fff;
+    color: $text-color-basic;
     font-family: $font-header;
     font-size: .87em;
     text-align: center;
@@ -289,12 +289,12 @@ header
 
 .card_block:hover p
 {
-    color: #fff;
+    color: $text-color-basic;
 }
 
 .card_block:hover h3
 {
-    color: #fff;
+    color: $text-color-basic;
 }
 
 /*Service*/
@@ -444,7 +444,7 @@ header
 {
     font-family: $font-basic;
     font-size: 1.5em;
-    color: #fff;
+    color: $text-color-basic;
     padding: 0;
     margin: 0;
 }
@@ -517,7 +517,7 @@ input:valid ~ label
 .submit_form
 {
     background-color: #0b4bec;
-    color: #fff;
+    color: $text-color-basic;
     font-family: $font-card;
     font-size: .88em;
 }
@@ -560,7 +560,7 @@ input:valid ~ label
 .footer_block a
 {
     text-decoration: none;
-    color: #fff;
+    color: $text-color-basic;
     font-family: $font-basic;
     font-size: .88em;
 }
