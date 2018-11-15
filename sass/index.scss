@@ -6,7 +6,7 @@ body
     padding: 0;
 }
 
-/*Хедер*/
+/*Header*/
 
 header
 {
@@ -137,6 +137,7 @@ header
     font-size: 1em;
     text-transform: uppercase;
     transition: all 1s ease-in-out;
+    white-space: nowrap;
 }
 
 .content_link:hover
@@ -420,17 +421,12 @@ header
 
 .user
 {
-    max-width: 1920px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.user_contenr
-{
-    margin: 0 100px;
 }
 
 .user_contenr p span
@@ -479,10 +475,10 @@ header
 .box_form
 {
     position: relative;
-    margin-bottom: 1.25em;
+    margin-bottom: 20px;
     color: #808080;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 1.25em;
 }
 
 label
@@ -525,7 +521,7 @@ input:valid ~ label
 .input_message
 {
     width: 550px;
-    height: 120px;
+    height: 118px;
 }
 
 .main_form
@@ -538,28 +534,6 @@ input:valid ~ label
 .submit_form:hover
 {
     cursor: pointer;
-}
-
-@media (max-width: 1200px)
-{
-    .block_form
-    {
-        max-width: 550px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .cards_row
-    {
-        flex-direction: column;
-    }
-
-    .service_text
-    {
-        text-align: center;
-    }
-
-
 }
 
 /*Footer*/
@@ -587,3 +561,27 @@ input:valid ~ label
     font-size: .88em;
 }
 
+@media screen and (min-width: 730px) and (max-width: 1200px)
+{
+    .block_form
+    {
+        max-width: 550px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .input_form, .submit_form
+    {
+        width: 500px;
+    }
+
+    .cards_row
+    {
+        flex-direction: column;
+    }
+
+    .service_text
+    {
+        text-align: center;
+    }
+}
