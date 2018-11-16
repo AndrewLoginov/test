@@ -425,7 +425,7 @@ label {
   margin: 0 20px;
 }
 
-input:valid ~ label {
+.input_form:valid ~ label {
   opacity: 0;
 }
 
